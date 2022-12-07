@@ -2,8 +2,8 @@
 apiVersion: ran.openshift.io/v1
 kind: SiteConfig
 metadata:
-  name: "ztp-spoke-01"
-  namespace: "ztp-spoke-01"
+  name: "ztp-site-01"
+  namespace: "ztp-site-01"
 spec:
   baseDomain: "ocp-poc-demo.local"
   pullSecretRef:
@@ -17,7 +17,7 @@ TGbI623rom5/mt46RPIVPrEL9EJPurHMrpN+xsFAyWrOh8lJ7+h2+iPkG8tTez903E5/JTn2cKdhRo9q
     networkType: "OVNKubernetes"
     clusterLabels:
       common: true
-      sites : "ztp-spoke-01"
+      sites : "ztp-site-01"
     clusterNetwork:
       - cidr: "10.128.0.0/14"
         hostPrefix: 23
