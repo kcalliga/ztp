@@ -12,3 +12,8 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: ztp-site-01
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ztp-spoke-01
