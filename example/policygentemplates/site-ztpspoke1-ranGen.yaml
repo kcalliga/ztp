@@ -3,7 +3,7 @@ apiVersion: ran.openshift.io/v1
 kind: PolicyGenTemplate
 metadata:
   name: "ztp-spoke-01"
-  namespace: "ztp-site"
+  namespace: "ztp-spoke-01"
 spec:
   bindingRules:
     sites: "ztp-spoke-01"
