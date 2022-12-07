@@ -6,7 +6,7 @@ metadata:
   namespace: "ztp-spoke-01"
 spec:
   bindingRules:
-    sites: "ztp-spoke-01"
+    sites: "ztp-site-01"
   mcp: "master"
   sourceFiles:
     - fileName: SriovNetworkNodePolicy.yaml
