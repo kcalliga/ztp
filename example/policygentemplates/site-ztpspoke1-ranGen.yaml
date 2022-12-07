@@ -2,11 +2,11 @@
 apiVersion: ran.openshift.io/v1
 kind: PolicyGenTemplate
 metadata:
-  name: "ztpspoke1"
+  name: "ztp-spoke-01"
   namespace: "ztp-site"
 spec:
   bindingRules:
-    sites: "sno02"
+    sites: "ztp-spoke-01"
   mcp: "master"
   sourceFiles:
     - fileName: SriovNetworkNodePolicy.yaml
