@@ -3,3 +3,4 @@ kind: Kustomization
 
 resources:
 - ztp-spoke-01
+- KlusterletAddonConfigOverride.yaml
