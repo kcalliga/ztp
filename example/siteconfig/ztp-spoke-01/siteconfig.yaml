@@ -28,10 +28,10 @@ TGbI623rom5/mt46RPIVPrEL9EJPurHMrpN+xsFAyWrOh8lJ7+h2+iPkG8tTez903E5/JTn2cKdhRo9q
     nodes:
       - hostName: "ztp-spoke-01"
         role: "master"
-        bmcAddress: redfish-virtualmedia+http://192.168.100.1:8000/redfish/v1/Systems/13e092cd-71ed-43c9-a75e-e4eaa21a4d62
+        bmcAddress: redfish-virtualmedia+http://192.168.100.1:8000/redfish/v1/Systems/e2547246-c4a1-41d6-a2d7-758b4e667cdf"
         bmcCredentialsName:
           name: "bmc-secret"
-        bootMACAddress: "52:54:00:4e:3a:2e"
+        bootMACAddress: "52:54:00:20:99:f6"
         #bootMode: "UEFI"
         #rootDeviceHints:
           # /dev/sda
@@ -40,13 +40,13 @@ TGbI623rom5/mt46RPIVPrEL9EJPurHMrpN+xsFAyWrOh8lJ7+h2+iPkG8tTez903E5/JTn2cKdhRo9q
         nodeNetwork:
           interfaces:
             - name: "enp1s0"
-              macAddress: "52:54:00:4e:3a:2e"
+              macAddress: "52:54:00:20:99:f6"
           config:
             interfaces:
               - name: enp1s0
                 type: ethernet
                 state: up
-                macAddress: "52:54:00:4e:3a:2e"
+                macAddress: "52:54:00:20:99:f6"
                 ipv4:
                   enabled: true
                   address:
