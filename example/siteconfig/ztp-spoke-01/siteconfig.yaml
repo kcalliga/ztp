@@ -28,7 +28,7 @@ TGbI623rom5/mt46RPIVPrEL9EJPurHMrpN+xsFAyWrOh8lJ7+h2+iPkG8tTez903E5/JTn2cKdhRo9q
     nodes:
       - hostName: "ztp-spoke-01"
         role: "master"
-        bmcAddress: redfish-virtualmedia+http://192.168.211.5:8000/redfish/v1/Systems/13e092cd-71ed-43c9-a75e-e4eaa21a4d62
+        bmcAddress: redfish-virtualmedia+http://192.168.100.1:8000/redfish/v1/Systems/13e092cd-71ed-43c9-a75e-e4eaa21a4d62
         bmcCredentialsName:
           name: "bmc-secret"
         bootMACAddress: "52:54:00:4e:3a:2e"
@@ -50,7 +50,7 @@ TGbI623rom5/mt46RPIVPrEL9EJPurHMrpN+xsFAyWrOh8lJ7+h2+iPkG8tTez903E5/JTn2cKdhRo9q
                 ipv4:
                   enabled: true
                   address:
-                    - ip: 192.168.212.50
+                    - ip: 192.168.100.5
                       prefix-length: 24
                   dhcp: false
                 ipv6:
